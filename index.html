@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>My Portfolio</title>
+    <title>Maaz Momin — Full Stack Developer</title>
 </head>
 
 <body>
@@ -18,14 +18,25 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+
     <section id="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1>Hi, I'm Maaz Momin</h1>
-                <p>I'm a web developer passionate about creating modern, interactive digital experiences.</p>
-                <div class="hero-btns">
-                    <a href="#projects" class="btn-primary">View My Work</a>
-                    <a href="#contact" class="btn-outline">Get In Touch</a>
+                <div class="hero-text">
+                    <p class="hero-greeting">Hey there, I'm</p>
+                    <h1>Maaz Momin</h1>
+                    <p class="hero-sub">Full-Stack Web Developer & Freelancer</p>
+                    <p class="hero-desc">I build modern, functional web experiences — and I've already delivered real projects to real clients.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn-primary">View My Work</a>
+                        <a href="#contact" class="btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-photo">
+                    <div class="photo-ring">
+                        <img src="PicMaaz.jpeg" alt="Maaz Momin" class="profile-pic" />
+                    </div>
+                    <div class="photo-glow"></div>
                 </div>
             </div>
         </div>
@@ -37,19 +48,17 @@
             <div class="about-grid">
                 <div class="about-text">
                     <p>I am a dedicated <strong>Web Developer</strong> and a student of <strong>BBACA</strong> at Abeda
-                        Inamdar Senior College,
-                        affiliated with <strong>Pune University</strong>. My goal is to bridge the gap between complex
-                        ideas and
-                        beautiful, functional websites.</p>
+                        Inamdar Senior College, affiliated with <strong>Pune University</strong>. My goal is to bridge
+                        the gap between complex ideas and beautiful, functional websites.</p>
                     <p>When I'm not coding, I'm exploring the latest web technologies and contributing to local student
                         tech communities. I believe in continuous learning and building things that matter.</p>
                 </div>
                 <div class="about-details">
                     <h3>Education</h3>
                     <ul>
-                        <li><strong>Bachelor of Business Administration (CA)</strong><br>Abeda Inamdar Senior College
-                        </li>
-                        <li><strong>University</strong><br>Pune University</li>
+                        <li><strong>BBACA — First Year</strong><br>Abeda Inamdar Senior College</li>
+                        <li><strong>12th HSC</strong><br>Foresight College of Commerce</li>
+                        <li><strong>University</strong><br>Pune University · 2025–Present</li>
                     </ul>
                 </div>
             </div>
@@ -61,32 +70,69 @@
         <div class="projects-grid">
             <div class="project-card">
                 <div class="project-info">
-                    <h3>Personal Portfolio Website</h3>
-                    <p>Description: A responsive portfolio site built with HTML, CSS & vanilla JavaScript. Features
-                        glassmorphism UI, smooth animations, and mobile-friendly design.</p>
-                    <a href="#" class="btn-link">View Project &rarr;</a>
+                    <span class="project-tag">Live · Maintained</span>
+                    <h3>Arantara</h3>
+                    <p>A wildlife conservation awareness website designed, built and delivered for a real client. Fully responsive and live on Netlify.</p>
+                    <div class="project-tech">HTML · CSS · JavaScript</div>
+                    <a href="https://arantara.netlify.app/" target="_blank" class="btn-link">View Project &rarr;</a>
                 </div>
             </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <span class="project-tag">Client Work</span>
+                    <h3>KPCA Portal</h3>
+                    <p>A full-stack internal business portal built for a CA firm. Features secure auth, dashboards and data management.</p>
+                    <div class="project-tech">React · Node.js · Supabase</div>
+                    <a href="#" class="btn-link">Private Project &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <span class="project-tag">Delivered</span>
+                    <h3>Vehicle Management System</h3>
+                    <p>A custom vehicle records dashboard built for an individual client. Fully designed, developed and handed over.</p>
+                    <div class="project-tech">HTML · CSS · JavaScript</div>
+                    <a href="#" class="btn-link">Private Project &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <span class="project-tag">Personal</span>
+                    <h3>Personal Portfolio</h3>
+                    <p>This portfolio — built with glassmorphism UI, smooth animations and a fully responsive layout.</p>
+                    <div class="project-tech">HTML · CSS · JavaScript</div>
+                    <a href="https://maaz-html.github.io" target="_blank" class="btn-link">View Project &rarr;</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="skills">
         <h2>My Skills</h2>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>React</li>
+            <li>React.js</li>
             <li>Node.js</li>
+            <li>Express.js</li>
             <li>MongoDB</li>
             <li>SQL</li>
+            <li>Supabase</li>
+            <li>Python</li>
+            <li>Git & GitHub</li>
+            <li>Vercel · Netlify</li>
         </ul>
     </section>
+
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Lets Work together!
-            Reach out via email: <a href="mailto:maazxmomin123@gmail.com">Send Email</a>
-        </p>
+        <p>Let's work together! I'm open to internships, freelance work and full-time opportunities.</p>
+        <div class="contact-links">
+            <a href="mailto:maazxmomin123@gmail.com" class="btn-primary">Send Email</a>
+            <a href="https://github.com/Maaz-html" target="_blank" class="btn-outline">GitHub</a>
+            <a href="https://www.linkedin.com/in/maaz-momin-1b0667356/" target="_blank" class="btn-outline">LinkedIn</a>
+        </div>
     </section>
 
     <footer>
